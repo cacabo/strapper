@@ -19,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/ccabo1/strapper/issues"
   },
-  "homepage": "https://github.com/ccabo1/strapper#readme"
+  "homepage": "https://github.com/ccabo1/strapper#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-changed": "^3.1.0",
+    "gulp-clean-css": "^3.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  }
 }
