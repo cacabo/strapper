@@ -1,0 +1,23 @@
+{
+  "name": "strapper",
+  "version": "1.0.0",
+  "description": "Making Bootstrap the rapid prototyping tool that it should be",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccabo1/strapper.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "css"
+  ],
+  "author": "Cameron Cabo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ccabo1/strapper/issues"
+  },
+  "homepage": "https://github.com/ccabo1/strapper#readme"
+}
