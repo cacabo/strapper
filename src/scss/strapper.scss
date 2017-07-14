@@ -1,7 +1,11 @@
-// Palette
+/*
+** Palette
+*/
 $light-gray: rgba(0, 0, 0, 0.075);
-$gray: rgba(0, 0, 0, 0.15); // SPACING AND PADDING
-
+$gray: rgba(0, 0, 0, 0.15);
+/*
+** SPACING AND PADDING
+*/
 .pad-0 {
   padding: 0 !important;
 }
@@ -89,8 +93,9 @@ $gray: rgba(0, 0, 0, 0.15); // SPACING AND PADDING
 .marg-bot-2 {
   margin-bottom: 2rem;
 }
-// Borders, lines, and dividers
-
+/*
+** Borders, lines, and dividers
+*/
 .border {
   border: 1px solid $gray;
 }
@@ -123,8 +128,9 @@ $gray: rgba(0, 0, 0, 0.15); // SPACING AND PADDING
 .line-2 {
   margin: 2rem 0;
 }
-// Coloring and typography
-
+/*
+** Coloring and typography
+*/
 .black {
   background: black;
 }
@@ -157,8 +163,9 @@ a.no-decoration:hover {
 .bold {
   font-weight: bold;
 }
-// Shading
-
+/*
+** Shading
+*/
 .hover {
   transition: all 0.2s ease;
 }
@@ -194,15 +201,17 @@ a.no-decoration:hover {
     box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.325);
   }
 }
-// Further functionallity
-
+/*
+** Further functionallity
+*/
 .cursor,
 button {
   cursor: pointer;
   cursor: hand;
 }
-// Positioning
-
+/*
+** Positioning
+*/
 .absolute {
   position: absolute;
 }
