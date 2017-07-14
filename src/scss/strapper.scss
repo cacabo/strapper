@@ -93,6 +93,30 @@ $gray: rgba(0, 0, 0, 0.15);
 .marg-bot-2 {
   margin-bottom: 2rem;
 }
+
+.marg-right-0 {
+  margin-right: 0;
+}
+
+.marg-left-05 {
+  margin-left: 0.5rem;
+}
+
+.marg-left-1 {
+  margin-left: 1rem;
+}
+
+.marg-left-0 {
+  margin-left: 0;
+}
+
+.marg-left-05 {
+  margin-left: 0.5rem;
+}
+
+.marg-left-1 {
+  margin-left: 1rem;
+}
 /*
 ** Borders, lines, and dividers
 */
@@ -141,6 +165,10 @@ $gray: rgba(0, 0, 0, 0.15);
 
 .light-gray {
   background: $light-gray;
+}
+
+.gray {
+  background: $gray;
 }
 
 .black-text,
@@ -209,6 +237,10 @@ button {
   cursor: pointer;
   cursor: hand;
 }
+
+.animate {
+  transition: all 0.2 ease;
+}
 /*
 ** Positioning
 */
@@ -234,6 +266,27 @@ button {
 
 .full-width {
   width: 100%;
+}
+
+.left {
+  text-align: left;
+}
+
+.float-left {
+  float: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.float-right {
+  float: right;
+}
+
+.center {
+  width: 100%;
+  text-align: center;
 }
 
 .background-image {
