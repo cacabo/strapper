@@ -110,3 +110,9 @@ Display elements the way you want them to.
 * `background-image`: center and properly size a background image
   * Use a unique ID to add the background image easily with CSS
   * `parallax`: give the background image a parallax scrolling effect on larger devices
+
+### Modules
+Additional, reusable modules for displaying information.
+* `ul.horizontal`: horizontal, simple left-aligned list. Good for navigation and icons.
+  * `right`: append this class in order to right align the horizontal form
+  * Padding between items is `1rem` by default
