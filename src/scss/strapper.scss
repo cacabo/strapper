@@ -3,6 +3,7 @@
 */
 $light-gray: rgba(0, 0, 0, 0.075);
 $gray: rgba(0, 0, 0, 0.15);
+
 /*
 ** SPACING AND PADDING
 */
@@ -42,12 +43,17 @@ $gray: rgba(0, 0, 0, 0.15);
   padding: 2rem 1rem;
 }
 
+.space-0,
 .space-1,
 .space-2,
 .space-3,
 .space-4 {
   display: block;
   width: 100%;
+}
+
+.space-0 {
+  height: 0rem;
 }
 
 .space-1 {
@@ -82,6 +88,10 @@ $gray: rgba(0, 0, 0, 0.15);
   margin-top: 2rem;
 }
 
+.marg-top-3 {
+  margin-top: 3rem;
+}
+
 .marg-bot-0 {
   margin-bottom: 0;
 }
@@ -92,6 +102,10 @@ $gray: rgba(0, 0, 0, 0.15);
 
 .marg-bot-2 {
   margin-bottom: 2rem;
+}
+
+.marg-bot-3 {
+  margin-bottom: 3rem;
 }
 
 .marg-right-0 {
@@ -117,6 +131,7 @@ $gray: rgba(0, 0, 0, 0.15);
 .marg-left-1 {
   margin-left: 1rem;
 }
+
 /*
 ** Borders, lines, and dividers
 */
@@ -168,6 +183,7 @@ $gray: rgba(0, 0, 0, 0.15);
 .line-2 {
   margin: 2rem 0;
 }
+
 /*
 ** Coloring and typography
 */
@@ -187,6 +203,28 @@ $gray: rgba(0, 0, 0, 0.15);
   background: $gray;
 }
 
+.black-text-important {
+  color: black !important;
+
+  &:hover,
+  &:active,
+  &:visited,
+  &:focus {
+    color: black !important;
+  }
+}
+
+.white-text-important {
+  color: white !important;
+
+  &:hover,
+  &:active,
+  &:visited,
+  &:focus {
+    color: white !important;
+  }
+}
+
 .black-text,
 a.black-text {
   color: black;
@@ -197,7 +235,16 @@ a.white-text {
   color: white;
 }
 
-,
+.black-text-hover:hover,
+a.black-text-hover:hover {
+  color: black;
+}
+
+.white-text-hover:hover,
+a.white-text-hover:hover {
+  color: white;
+}
+
 .no-decoration,
 a.no-decoration,
 a.no-decoration:hover {

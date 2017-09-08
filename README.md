@@ -40,6 +40,8 @@ Quickly add the padding you need to an element.
 
 ### Spacing
 Add in a full-width spacer between elements.
+* `space-0`: `0rem` tall spacer
+  * Good especially with `inline` aligned items to ensure everything stays on the right line.
 * `space-1`: `1rem` tall spacer
 * `space-2`
 * `space-3`
@@ -77,7 +79,11 @@ Quickly set standard colors and styles for text and elements alike.
 * `light-gray`
 * `gray`
 * `black-text`: set text color to black
+  * `black-text-important`: set color to black in all cases
+  * `black-text-hover`: set color to black on hover
 * `white-text`
+  * `white-text-important`: set color to black in all cases
+  * `white-text-hover`: set color to black on hover
 * `no-decoration`: remove decoration, especially underlining on link hover
 * `bold`: bolden text
 
