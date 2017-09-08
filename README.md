@@ -20,7 +20,7 @@ The source code can be found at `./src/scss/strapper.scss`. This can be edited t
 
 In order to do this, you can clone the repository by running:
 ```
-$ git@github.com:ccabo1/strapper.git
+$ git clone git@github.com:ccabo1/strapper.git
 ```
 Once this is completed, make sure your packages are up to date and configured:
 ```
