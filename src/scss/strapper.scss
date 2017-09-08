@@ -3,6 +3,13 @@
 */
 $light-gray: rgba(0, 0, 0, 0.075);
 $gray: rgba(0, 0, 0, 0.15);
+$light-gray-text: rgba(0, 0, 0, 0.3);
+$gray-text: rgba(0, 0, 0, 0.6);
+$blue-gray-text: #8898aa;
+$white-blue: #f6f9fc;
+$green: #24b47e;
+$purple: #6772e5;
+$blue: #2289d8;
 
 /*
 ** SPACING AND PADDING
@@ -195,12 +202,28 @@ $gray: rgba(0, 0, 0, 0.15);
   background: white;
 }
 
+.white-blue {
+  background: $white-blue;
+}
+
 .light-gray {
   background: $light-gray;
 }
 
 .gray {
   background: $gray;
+}
+
+.green {
+  background: $green;
+}
+
+.purple {
+  background: $purple;
+}
+
+.blue {
+  background: $blue;
 }
 
 .black-text-important {
@@ -235,6 +258,36 @@ a.white-text {
   color: white;
 }
 
+.gray-text
+a.gray-text {
+  color: $gray-text !important;
+}
+
+.light-gray-text
+a.light-gray-text {
+  color: $light-gray-text !important;
+}
+
+.blue-gray-text
+a.blue-gray-text {
+  color: $blue-gray-text !important;
+}
+
+.green-text,
+a.green-text {
+  color: $green !important;
+}
+
+.purple-text,
+a.purple-text {
+  color: $purple !important;
+}
+
+.blue-text,
+a.blue-text {
+  color: $blue !important;
+}
+
 .black-text-hover:hover,
 a.black-text-hover:hover {
   color: black;
@@ -251,9 +304,18 @@ a.no-decoration:hover {
   text-decoration: none;
 }
 
+.caps {
+  text-transform: capitalize;
+}
+
 .bold {
   font-weight: bold;
 }
+
+.italic {
+  font-style: italic;
+}
+
 /*
 ** Shading
 */

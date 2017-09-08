@@ -78,14 +78,26 @@ Quickly set standard colors and styles for text and elements alike.
 * `white`
 * `light-gray`
 * `gray`
+* `white-blue`
+* `purple`
+* `green`
+* `blue`
 * `black-text`: set text color to black
   * `black-text-important`: set color to black in all cases
   * `black-text-hover`: set color to black on hover
 * `white-text`
   * `white-text-important`: set color to black in all cases
   * `white-text-hover`: set color to black on hover
+* `gray-text`
+* `light-gray-text`
+* `blue-gray-text`
+* `blue-text`
+* `purple-text`
+* `green-text`
 * `no-decoration`: remove decoration, especially underlining on link hover
 * `bold`: bolden text
+* `italic`: italicize text
+* `caps`: capitalize text
 
 ### Shading
 Add extended depth with shading classes.
