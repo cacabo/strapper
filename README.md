@@ -16,7 +16,23 @@ Include the file after Bootstrap and before your own custom styles:
 ```
 
 ## Personalization
-The source code can be found at `src/scss/strapper.scss`. This can be edited to your own specifications and desires. Further, you can clone the repository, run `npm install` followed by `gulp`, and all your changes to the `scss` file will be minified to the corresponding `css` file.
+The source code can be found at `./src/scss/strapper.scss`. This can be edited to your own specifications and desires.
+
+In order to do this, you can clone the repository by running:
+```
+$ git@github.com:ccabo1/strapper.git
+```
+Once this is completed, make sure your packages are up to date and configured:
+```
+$ npm install
+```
+To get to work, run:
+```
+$ gulp
+```
+Keep running this while you edit the `scss` file. Gulp will automatically compile the `scss` on save into the minified `css` file in the `css` folder. If there are any errors with compilation, they will come up in the terminal window running `gulp`.
+
+If you have any problems or feature requests, [open an issue.](https://github.com/ccabo1/strapper/issues)
 
 ## Intuition
 Bootstrap, in large part, does a great job of doing what it sets out to: Bootstrap websites are naturally responsive, mobile-first, structured, accessible, etc. The one place where Bootstrap needs improvement is, ironically enough, __bootstrapping__--that is, quickly putting together website for proof of concept that can later be personalized.
