@@ -1,5 +1,5 @@
 /*
-** Palette
+** Color palette
 */
 $light-gray: rgba(0, 0, 0, 0.075);
 $gray: rgba(0, 0, 0, 0.15);
@@ -263,14 +263,14 @@ a.gray-text {
   color: $gray-text !important;
 }
 
-.light-gray-text
-a.light-gray-text {
-  color: $light-gray-text !important;
-}
-
 .blue-gray-text
 a.blue-gray-text {
   color: $blue-gray-text !important;
+}
+
+.light-gray-text
+a.light-gray-text {
+  color: $light-gray-text !important;
 }
 
 .green-text,

@@ -79,6 +79,12 @@ Customize space between elements with ease.
 * `marg-left-05`
 * `marg-left-1`
 
+### Rounding
+* `round-1`: 0.25rem border-radius
+* `round-2`: 0.5rem border-radius
+* `round-3`
+* `round-4`
+
 ### Borders, lines, and dividers
 Better organize your website with delineating borders and lines.
 * `border`: standard gray border
