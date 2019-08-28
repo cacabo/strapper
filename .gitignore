@@ -59,3 +59,5 @@ typings/
 
 # additional
 test.html
+.DS_STORE
+DS_STORE
